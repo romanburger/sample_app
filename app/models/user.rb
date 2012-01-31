@@ -38,6 +38,11 @@ class User < ActiveRecord::Base
     return user if user.has_password?(submitted_password)
     # Implicit return of nil if end of der reached.
   end
+  
+  def self.authenticate_with_salt(id, cookie_salt)
+    user = find_by_id(id)
+    (user && user.salt == cookie_salt) ? user : nil # This is actually same as in authenticate def.
+  end
 
   private
 
