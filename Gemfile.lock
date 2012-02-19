@@ -138,6 +138,9 @@ GEM
     windows-pr (1.2.1)
       win32-api (>= 1.4.5)
       windows-api (>= 0.3.0)
+    zero-clipboard-rails (1.0.1)
+      railties (~> 3.0)
+      thor (~> 0.14)
 
 PLATFORMS
   x86-mingw32
@@ -157,3 +160,4 @@ DEPENDENCIES
   uglifier (>= 1.0.3)
   webrat (= 0.7.1)
   will_paginate (= 3.0.pre2)
+  zero-clipboard-rails (~> 1.0.1)

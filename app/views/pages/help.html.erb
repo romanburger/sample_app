@@ -6,3 +6,34 @@
   <a href="http://railstutorial.org/book">Rails Tutorial book</a>.
 </p>
 
+<!--div class="clippyx">
+  <%= (clippy @lo_new).html_safe %>
+</div>
+
+<#%= content_tag(:pre, @lo_new, class: "program") %>
+-->
+<div id="mydiv">
+  Toto je moj div. A    este    tab   test.
+  
+  
+  <div id='d_clip_container' style='position:relative'>
+    <div id='d_clip_button'>
+      <!--div class="clippy">
+        <#%= (clippy @lo_new).html_safe %>
+      </div-->
+      <%= @lo_solution.html_safe %>
+    </div>
+  </div>
+</div>
+
+<script language="JavaScript">
+  var clip = new ZeroClipboard.Client();
+  
+  var list = document.getElementsByClassName('programlisting');
+  var text = list[0].innerHTML;
+
+  clip.setText( text );
+  clip.glue( 'd_clip_button', 'd_clip_container' );
+</script>
+
+<!--link_to_function("COPY","var clip = new ZeroClipboard.Client();clip.setText( \"Copy me!\" );")-->

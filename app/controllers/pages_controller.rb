@@ -18,6 +18,19 @@ class PagesController < ApplicationController
 
   def help
     @title = "Help"
+    @lo_solution = "<pre class='programlisting'>Pre istotu    sem     dam aj
+  pre tag
+    just to make sure.
+  .
+.</pre>"
+    @lo_new = 
+"ahoj
+{
+  ako
+  {
+    sa mas
+  }
+}"
   end
 
 end
