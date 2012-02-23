@@ -244,3 +244,14 @@ form.new_micropost textarea {
   margin-bottom: 0;
 }
 
+/* clippy */
+.clippy {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-bottom: 1px dotted #AAA;
+  border-left: 1px dotted #AAA;
+  padding: 5px;
+  background-color: white;
+}
+
