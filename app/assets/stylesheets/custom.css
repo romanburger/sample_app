@@ -245,6 +245,11 @@ form.new_micropost textarea {
 }
 
 /* clippy */
+
+.solution_container {
+    position: relative;
+}
+
 .clippy {
   position: absolute;
   top: 0;
@@ -255,3 +260,17 @@ form.new_micropost textarea {
   background-color: white;
 }
 
+.programlisting {
+  font-family: "LatinModernMono10Regular", "Courier New", monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.08em;
+  border: 1px dotted #AAA;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  background-color: #F4F4F4;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: relative;
+}
