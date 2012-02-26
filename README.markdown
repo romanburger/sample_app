@@ -5,3 +5,4 @@ This is the sample application for
 by [Michael Hartl](http://michaelhartl.com/).
 
 Some testing changes.
+Some more changes.
